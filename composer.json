@@ -1,0 +1,13 @@
+{
+    "name": "atha/chat-app",
+    "description": "Just a simple PHP app",
+    "keywords": ["php"],
+    "license": "None",
+    "authors": [
+        {
+            "name": "Atha Tsaqif",
+            "email": "atha.3417@gmail.com",
+            "homepage": "http://example.com/"
+        }
+    ]
+}
