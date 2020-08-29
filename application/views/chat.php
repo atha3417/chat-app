@@ -19,7 +19,7 @@
 				</div>
 				<div>
 					<div class="form-group">
-						<input type="text" name="name" id="name" class="form-control" placeholder="Your Nama" required>
+						<input type="text" name="name" id="name" class="form-control" placeholder="Your Nama" required autofocus>
 					</div>
 					<div class="form-group">
 						<textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
@@ -61,6 +61,7 @@
     var channel = pusher.subscribe('my-channel');
     channel.bind('my-event', function(data) {
       addData(data)
+      $('#message').focus();
     })
 
 
